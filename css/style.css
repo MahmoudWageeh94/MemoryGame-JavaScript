@@ -1,0 +1,470 @@
+/* Start General Settings*/
+
+@font-face {
+    font-family: Harry;
+    src: url(../webfonts/HARRYP__.TTF);
+    font-weight:400;
+}
+*{
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6,button{
+    font-family: "Harry";
+}
+.all{
+    background: url("../img/back/background.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size:cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    overflow-y: hidden;
+}
+.form{
+    background: url("../img/back/joker-back.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size:cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    overflow-y: hidden;
+    
+}
+.easy{
+    background: url("../img/back/jocker1.1.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size:cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    overflow-y: hidden;
+}
+.medium{
+    background: url("../img/back/jocker2.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size:cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    overflow-y: hidden;
+}
+.hard{
+    background: url("../img/back/jocker1.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size:cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.about{
+    background: url("../img/team/about-back.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size:cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    overflow-y: auto;
+    height: 1500px;
+}
+.user{
+    width:250px;
+    height: 200px;
+    position: fixed;
+    top: 30px;
+    left: 0;
+    z-index: 10;
+}
+.user .pic{
+    float: left;
+    text-align: left;
+}
+.user .pic img{
+    width: 80px;
+    height: 80px;
+}
+.user .info{
+  color: #ffffff;
+  
+}
+.counter{
+    position: fixed;
+    top: 30px;
+    right:20px;
+    z-index: 12;
+    font-size: 22px;
+    color: #ffffff;
+    background: rgba(203, 5, 230, 0.3);
+    padding: 5px;
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+}
+.counter span{
+    background: rgba(203, 5, 230, 0.3);
+    border: solid 1px #ffffff;
+    border-radius: 5px;
+    padding: 2px;
+}
+.help{
+    padding:15px;
+    background:  rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    position: absolute;
+    top:205px;
+    left: 68px;
+    z-index: 15;
+    color: #333333;
+    display: none;
+    width: 300px;
+}
+.help p{
+    text-align: justify;
+}
+.help p:last-child{
+    padding-bottom: 20px;
+}
+.help::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background:   rgba(255, 255, 255, 1);
+    display: block;
+    position: absolute;
+    left: -15px;
+    top: 50px;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+.settings{
+    position: fixed;
+    top: 150px;
+    left: 10px;
+    z-index: 12;
+    cursor: pointer;
+    font-size: 32px;
+    color:#fff; 
+}
+.settings ul{
+    list-style-type: none;
+}
+.settings ul li a{
+    color:#fff; 
+}
+.settings ul li a:hover,.settings ul li:hover{
+    color: rgba(203, 5, 230, 0.3); 
+}
+
+/* End General Settings*/
+/* Start login ans signup style*/
+.form label{
+    color: #fff;
+}
+.form a{
+    text-decoration: none;
+    color: #ffffff
+}
+.form a:hover{
+    color: rgb(18, 121, 218);
+}
+.form .text-center{
+    margin-top: 50px;
+}
+.login{
+    margin-top: 8%;
+    width: 30%;
+    margin-left: 35%;
+    padding: 40px;
+    border-radius: 5%;
+    background: rgba(203, 5, 230, 0.5);
+}
+.login h1{
+    text-align: center;
+    color: #ffffff
+}
+.signup .input-group .input-group-text{
+    margin-left: 5px;
+}
+.signup .input-group img{
+   width: 60px;
+   height: 60px;
+}
+.signup{
+    margin-top: 5px;
+    width: 30%;
+    margin-left: 35%;
+    padding: 40px;
+    border-radius: 5%;
+    height: 80%;
+    background: rgba(203, 5, 230, 0.5);
+}
+.signup h1{
+    text-align: center;
+    color: #ffffff
+}
+/* End login ans signup style*/
+/* Start Levels style*/
+.allCards{
+    position: relative;
+    width: 100%;
+    min-height: 750px;
+    text-align: center
+}
+.allCards h1{
+    padding-top: 100px;
+    color: #ffffff;
+    text-align: center;
+}
+.cards{
+    position: absolute;
+    top:30%;
+    z-index: 12;
+    background: transparent;
+}
+.easy .cards{
+    left: 25%;
+    width: 50%;
+}
+.medium .cards{
+    left: 15%;
+    width: 70%
+}
+.hard h1{
+    padding-top: 50px;
+}
+.hard .cards{
+    left: 5%;
+    width: 90%;
+    top:22%;
+}
+.hard .cards .card{
+    height: 160px;
+}
+.cards .card {
+    height: 200px;
+    margin-bottom: 10px; 
+    border: none;
+    background: transparent;
+}
+
+.cards .card  img{
+    width: 95%;
+    height: 100%;
+    cursor: pointer;
+}
+
+  .cards .card img:hover{
+    -webkit-box-shadow: -1px 2px 12px 6px  rgba(203, 5, 230, 0.6);
+    -moz-box-shadow: -1px 2px 12px 6px  rgba(203, 5, 230, 0.6);
+    box-shadow: -1px 2px 12px 4px  rgba(203, 5, 230, 0.6);
+}
+/* End Levels style*/
+/* Start menu style*/
+.menu{
+  text-align: center;
+  width: 100%;
+  min-height: 755px;
+  overflow: hidden;
+  position: relative;
+}
+
+.menu h1{
+    padding-top: 100px;
+    color: #ffffff;
+    font-size: 52px;
+}
+.menu .options{
+    margin-top: 150px;
+    left: 40%;
+    position: absolute;
+    z-index: 10;
+    width: 20%;
+}
+.menu .options .option{
+    margin-bottom: 10px;
+    text-align: center;
+   font-family: 'Harry';
+ 
+}
+.menu .options .option button,.menu .options .option select{
+    width: 200px;
+    font-size: 28px;
+}
+.menu .options .option select{
+    cursor: pointer;
+    text-align: center;
+    padding-left: 55px;
+}
+.menu .options .option select option{
+    cursor: pointer;
+}
+/* End menu style*/
+/* Start about page style*/
+.about-game .row{
+    text-align: center;
+    margin-top: 50px;
+    width: 85%;
+    margin-left: 7.5%;
+    color: #fff;
+    padding: 40px;
+    border-radius: 5%;
+    background: rgba(203, 5, 230, 0.5);
+}
+.about-game .row{
+    text-align: center;
+}
+.about-game .row h2{
+    text-align: center;
+}
+.about-game .row p{
+    text-align: left;
+    line-height: 1.7;
+    font-size: 18px;
+
+}
+.team{
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    z-index: 12;
+    width: 90%;
+}
+.team h2{
+    margin-bottom: 50px;
+    color: #fff;
+}
+.person{
+    margin-bottom: 30px;
+    background-color: #eeeeee;
+    height:160px;
+    width: 60%;
+    -webkit-box-shadow: 2px 3px 26px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 26px -6px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 26px -6px rgba(0,0,0,0.75);
+    border-radius: 25% 10px 10px 25%;
+}
+.person .row{
+    height: 120px;
+    padding-top: 10px;
+}
+.person .left{
+    border-right: 4px dashed #2db2ff;
+}
+.person .right{
+    border-left: 4px dashed #2db2ff;
+}
+.team .right-person{
+    margin-left: 40%;
+    border-radius:10px 25% 25% 10px;
+}
+.person img{
+    width:140px;
+    height: 140px;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+}
+.social{
+    margin-top: 20px;
+}
+.person a.team_social{
+    font-size: 18px;
+    margin: 0 5px 15px;
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    color: #ffffff;
+    background: #cccccc;
+    padding-top: 10px;
+    border-radius: 3px;
+    transition: all 500ms cubic-bezier(0.165, 0.84, 0.44, 1);
+    -webkit-transition: all 500ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.person a.team_social:hover{
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    background: #2db2ff;
+    box-shadow: 0 1px 15px rgba(26, 37, 46, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+    color: white;
+}
+/*End about page style*/
+
+/* winner & loser popup Style*/
+@keyframes display{
+    from {
+       top: -300px;
+      }
+    
+      to {
+        top: 15%;
+    }
+    
+}
+.winnerPop{
+    position: absolute;
+    top: -300px;
+    left: 37.5%;
+    width: 25%;
+    min-height: 250px;
+    background: #ffffff;
+    text-align: center;
+    z-index: 15;
+    padding: 20px;
+    border: solid 3px rgba(203, 5, 230, 0.3);
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 2px 12px 6px  rgba(203, 5, 230, 0.6);
+    -moz-box-shadow: -1px 2px 12px 6px  rgba(203, 5, 230, 0.6);
+    box-shadow: -1px 2px 12px 6px  rgba(203, 5, 230, 0.6);
+    transition: all 0.2s ease-in-out;
+}
+.winnerPop span{
+    display: block;
+    margin-bottom: 5px;
+}
+.winnerPop button{
+    margin-top: 8px;
+    font-size: 24px;
+    margin-right: 10px;
+}
+/* start user popup*/
+
+.userPop{
+    position: absolute;
+    top: -300px;
+    left: 37.5%;
+    width: 25%;
+    min-height: 200px;
+    background: #ffffff;
+    text-align: center;
+    z-index: 15;
+    padding: 20px;
+    border: solid 3px rgba(203, 5, 230, 0.3);
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 2px 12px 6px  rgba(203, 5, 230, 0.6);
+    -moz-box-shadow: -1px 2px 12px 6px  rgba(203, 5, 230, 0.6);
+    box-shadow: -1px 2px 12px 6px  rgba(203, 5, 230, 0.6);
+}
+.userPop button{
+    margin-top: 8px;
+    font-size: 24px;
+}
+/**************************/
+ .blur{
+     -webkit-filter: blur(20px);
+     filter: blur(20px);
+ }
+ 

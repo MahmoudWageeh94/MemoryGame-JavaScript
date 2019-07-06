@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>JOKER-Signup</title>
+  </head>
+  <body class="form">
+    <div class="contain">
+    <h1 class="text-center">JOKER GAME</h1>
+    <div class="signup">
+      <h1>SignUp</h1>
+        <div class="container">
+            <form>
+                <div class="form-group">
+                  <label for="fName">First Name</label>
+                  <input type="text" class="form-control" id="fNmae"  placeholder="Enter Your First Name:">
+                </div>
+                <div class="form-group">
+                  <label for="lName">Last Name</label>
+                  <input type="text" class="form-control" id="lNmae"  placeholder="Enter Your Last Name:">
+                </div>
+                <div class="form-group">
+                  <label for="uName">User Name</label>
+                  <input type="text" class="form-control" id="uNmae" placeholder="Enter Your User Name:">
+                </div>
+                <div class="form-group">
+                    <label for="Password">Password</label>
+                    <input type="password" class="form-control" id="Password"  placeholder="Enter Your Password:">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">
+                          <input type="radio" name="avatar" value="img/avatar/avatar1.png">
+                        <img src="img/avatar/avatar1.png"/>
+                      </div>
+                      <div class="input-group-text">
+                          <input type="radio" name="avatar" value="img/avatar/avatar2.png">
+                          <img src="img/avatar/avatar2.png"/>
+                  
+                        </div>
+                        <div class="input-group-text">
+                            <input type="radio" name="avatar" value="img/avatar/avatar3.png">
+                            <img src="img/avatar/avatar3.png"/>
+                    
+                          </div>
+                          <span id="radioValid"></span>
+                    </div>
+              
+                  </div>
+                  <div class="form-group">
+                      <a href="login.html">Already have an account?</a>
+                  </div>
+                <button type="submit" id="saveForm" class="btn btn-outline-danger btn-block">Signup</button>
+              </form>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/signup.js"></script>
+  </body>
+</html>
